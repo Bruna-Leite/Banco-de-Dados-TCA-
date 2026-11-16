@@ -1,0 +1,12 @@
+:root{
+    --letter-color:white;
+    --background-color:#3754c6;
+    --title-color:rgb(247, 218, 138);
+    --evolucao: #f4e1ff;
+    --background-evo:#6a09c0;
+    --hero: #FDFAD4;
+    --background-hero: #E48100;
+    --font-base:"Roboto";
+    --radius: 8px;
+    --border-width: 2px;
+}

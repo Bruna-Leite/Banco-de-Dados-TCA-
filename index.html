@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultar Dados do jogo</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header><h1>Tabelas do Clash Royale</h1></header>
+  <nav>
+<label for="tabelaSelect">
+Escolha uma tabela:
+</label>
+  <select id="tabelaSelect">
+    <option value="none"></option>
+    <option value="nivel_do_rei">Nível do Rei</option>
+    <option value="melhoria">Melhoria</option>
+    <option value="arena">Arena</option>
+    <option value="raridade">Raridade</option>  
+    <option value="tipo">Tipo</option>
+    <option value="carta">Carta</option>  
+    <option value="torre">Torre</option>  
+    <option value="evolucao">Evolução</option>  
+    <option value="heroi">Herói</option>  
+  </select>
+  </nav>
+  <main id="conteudo">Clash royale é um jogo eletrônico de estratégia em tempo real para dispositivos móveis e PC.
+  E nesse website, você pode visitar as tabelas nesse universo. Escolha uma para começar a consulta.
+  <br><a href="./info.html"> Saiba Mais</a>
+</main>
+  <script>
+    const classes = ["nivel_do_rei","melhoria","arena","raridade","tipo","carta","torre","evolucao","heroi"];
+    const tabelas = ["nivel_do_rei","melhoria","arena","raridade","tipo","carta","torre","evolucao","heroi"];
+  </script>
+  <script type="module" src="js/choice.js"></script>
+</body>
+</html>

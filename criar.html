@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados da Carta</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Dados da Carta</h1>
+        <div id="mensagem">Crie ou edite os dados da carta.</div>
+
+        <form id="CardForm">
+            <label for="nome">Nome da Carta:</label>
+            <input type="text" id="nome" placeholder="Unnamed" required>
+            <br>
+
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" required>
+                <option value="">Carregando tipos...</option>
+            </select>
+            <br>
+
+            <label for="raridade">Raridade:</label>
+            <select id="raridade" required>
+                <option value="">Carregando raridades...</option>
+            </select>
+            <br>
+
+            <label for="arena">Arena:</label>
+            <input type="number" id="arena" placeholder="Arena -" required>
+            <br>
+
+            <label for="elixir">Custo de Elixir:</label>
+            <input type="number" id="elixir" placeholder="-" required>
+            <br>
+
+            <label for="evolucao">Possui evolução?</label>
+            <input type="checkbox" id="evolucao">
+            <br>
+
+            <label for="ciclo">Possui quantos ciclos:</label>
+            <input type="number" id="ciclo" placeholder="-">
+            <br>
+
+            <label for="heroi">Possui herói?</label>
+            <input type="checkbox" id="heroi">
+            <br>
+
+            <label for="hab">Nome da habilidade:</label>
+            <input type="text" id="hab" placeholder="Unnamed">
+            <br>
+
+            <label for="custo">Custo dessa habilidade:</label>
+            <input type="number" id="custo" placeholder="-">
+            <br>
+
+            <button type="submit" id="Criar">Criar</button>
+        </form>
+    </div>
+
+    <script type="module" src="js/form_create.js"></script>
+</body>
+</html>

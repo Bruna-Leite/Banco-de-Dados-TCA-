@@ -1,0 +1,102 @@
+body { 
+    font: 16px Arial, sans-serif;
+    margin: 24px; background: var(--background-color);
+    color:var(--letter-color); 
+}
+h1 { 
+    text-align: center;
+    margin-bottom: 24px;
+    color: var(--title-color);
+}
+section { 
+    margin: 20px 0;
+    padding: 16px;
+    background: var(--letter-color);
+    border-radius: 8px;
+}
+table { 
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td { 
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th { background: #eee; }
+h2{
+    text-align: center;
+    color:maroon;
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    background-color: #9a1b1b;
+    color:var(--letter-color);
+    border: 2px solid black;
+}
+table td {
+    background-color: cornsilk;
+    padding: 8px;
+    color:black;
+    border: 2px solid black;
+}
+.acoes-carta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 4px;
+  margin-bottom: 5px;
+}
+
+.acoes-carta p {
+  flex: 0 0 100%;
+  margin: 0 0 4px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.botao-criar{
+    background-color:rgb(106, 222, 106);
+}
+.botao-criar:hover{
+    background-color: rgb(8, 157, 8);
+}
+.botao-editar{
+    background-color: rgb(236, 173, 85);
+}
+.botao-editar:hover{
+    background-color: chocolate;
+}
+.botao-deletar{
+    background-color: rgb(207, 111, 111);
+}
+.botao-deletar:hover{
+    background-color: #9a2626;
+}
+.botao-criar:hover, .botao-deletar:hover, .botao-editar:hover{
+    color:var(--letter-color);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 9px;
+}
+input, select {
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+#evolucao input[type="checkbox"]{
+    accent-color: purple;
+}
